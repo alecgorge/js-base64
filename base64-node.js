@@ -1,6 +1,11 @@
 /** 
   * A node.js compatiple module providing Base64 encoding, UTF-16 (Normal Javascript string) to 
   * UTF-8/byte arrays.
+  *
+  * Example:
+  *      var base64 = require('/base64-node');
+  *      base64.encode("string");
+  *      base64.encode(base64.convertUTF16ArrayToByteArray("string"));
   */
 
 var b64chars
