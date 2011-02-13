@@ -160,7 +160,7 @@ var convertBase64ToUTF16String = function (b64){
 	return convertUTF8ArrayToUTF16String(convertBase64ToUTF8Array(b64));
 };
 
-return {
+module.exports = {
     convertUTF8ArrayToBase64:convertUTF8ArrayToBase64,
     convertByteArrayToBase64:convertUTF8ArrayToBase64,
     convertBase64ToUTF8Array:convertBase64ToUTF8Array,
